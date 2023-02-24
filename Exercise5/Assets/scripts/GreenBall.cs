@@ -14,9 +14,9 @@ public class GreenBall : Ball
         base.Start();
     }
 
-    protected override void PrintMessage()
+    override protected void PrintMessage()
     {
         //print("I am a green ball");
-        Debug.Log("I am a green ball");
+        Debug.Log("I'm a green ball");
     }
 }
