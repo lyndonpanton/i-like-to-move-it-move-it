@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5229218859263774056}
   - component: {fileID: 3337032753060863315}
   - component: {fileID: 975497577138712244}
+  - component: {fileID: -5148645835805792871}
   m_Layer: 0
   m_Name: RedBall
   m_TagString: Untagged
@@ -106,3 +107,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-5148645835805792871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5036325494499155950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c8d27395c8b344fb68079ad68da35b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
