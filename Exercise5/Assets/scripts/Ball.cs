@@ -26,4 +26,9 @@ public class Ball : MonoBehaviour
     {
         print("I'm a white ball");
     }
+
+    virtual protected void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 }
