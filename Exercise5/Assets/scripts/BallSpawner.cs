@@ -44,7 +44,7 @@ public class BallSpawner : MonoBehaviour
 
             int option = Random.Range(0, balls.Length);
 
-            GameObject chosenBall = Instantiate(balls[option]) as GameObject;
+            Instantiate(balls[option]);
             //Instantiate(chosenBall);
         }
     }
